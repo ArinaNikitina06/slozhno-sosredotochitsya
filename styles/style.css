@@ -148,6 +148,10 @@
   margin-bottom: 10px;
 }
 
+.text-block__text {
+  letter-spacing: 1.5px;
+}
+
 .text-block__link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--text-block-link);
@@ -244,3 +248,8 @@
     padding: 10px;
   }
 }
+
+
+
+
+
