@@ -114,7 +114,7 @@
 .main {
   display: grid;
   gap: 80px;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .section-title {
@@ -240,7 +240,7 @@
   .gallery__width {
     grid-column: auto;
   }
-  .page{
+  .page {
     padding: 10px;
   }
 }
