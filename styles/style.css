@@ -111,7 +111,7 @@
   inline-size: 50%;
   justify-self: end;
   align-self: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .main {
@@ -153,7 +153,7 @@
 }
 
 .text-block__text {
-  letter-spacing: 1.3px;
+  letter-spacing: 1.1px;
 }
 
 .text-block__link {
