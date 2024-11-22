@@ -37,12 +37,9 @@
 }
 
 .header {
-  /* display: flex;
-  flex-direction: column; */
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
-  /* gap: 114px; */
   gap: 20%;
   padding: 20px;
 }
@@ -99,7 +96,8 @@
   margin-left: 10px;
 }
 
-.header__title, .footer__title {
+.header__title,
+.footer__title {
   color: var(--main-header);
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -132,13 +130,13 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
+  grid-column: 1 / -1;
 }
 
 .flex-conteiner-column {
   display: flex;
   gap: 20px;
   flex-direction: column;
-
   grid-column: span 2;
 }
 
@@ -154,15 +152,16 @@
 
 .text-block__link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 #FF0070;
+  text-shadow: 2px 2px 0 var(--text-block-link);
 }
 
-.consentrations .section-title {
-  margin-bottom: 20px;
+.text-block__link:hover {
+  border-bottom: 1px solid var(--text-color);
 }
 
-.consentrations .text-block {
-  width: calc(100% / 3);
+.text-block__link:focus {
+  border-bottom: 0px;
+  outline: 1px solid var(--text-color);
 }
 
 .gallery {
@@ -190,118 +189,56 @@
   grid-row: span 2;
 }
 
-.footer{
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-
-
-/* Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не существует. Исследователи выяснили, что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём. */
-
-/* Rectangle 77 */
-
-/* box-sizing: border-box;
-
-position: absolute;
-width: 25px;
-height: 25px;
-left: 979px;
-top: 20px;
-
-border-width: 1px 1px 0px 0px;
-border-style: solid;
-border-color: #FF0070; */
-
-/*
-.decorated-zone {
-position: relative;
-}
-
-.header {
-  padding-top: 75px;
-}
-
-.header__rec {
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: #ff0070;
+.footer {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding-right: 9px;
 }
 
- 
-
-.header__rec::before {
-  content: "REC";
+@media (max-width: 1024px) {
+  .header {
+    gap: 0%;
+  }
+  .header__theme-menu-list {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 146px;
+  }
 }
 
-.header__rec::after {
-  content: "";
-  border-radius: 50%;
-  display: inline-block;
-  background: #ff0070;
-  box-shadow: 0px 0px 4px 2px #ff0070;
-  width: 9px;
-  height: 9px;   
+@media (max-width: 768px) {
+  .text-block {
+    grid-column: 1 / -1;
+  }
 }
 
+@media (max-width: 767px) {
+  .header__theme-menu-list {
+    margin-top: 75px;
+  }
 
+  .header__title {
+    line-height: 100.7px;
+  }
 
-.header__theme-menu-list {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 18px;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  color: #ff0070;
-}
-.header__theme-menu-button {
-  background-color: transparent;
-  border: none;
-  text-transform: lowercase;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding: 0 13px;
-}
+  .header__text {
+    inline-size: 100%;
+  }
 
-.header__theme-menu-button:hover {
-  outline: 1px solid #ff0070;
-}
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.header__theme-menu {
-  display: flex;
-  justify-content: end;
-}
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.no-focus {
-  display: flex;
-  flex-direction: column;
-  gap: 55px;
+  .gallery__height {
+    grid-row: auto;
+  }
+
+  .gallery__width {
+    grid-column: auto;
+  }
 }
-.no-focus__title {
-  color: #db00ff;
-  font-weight: 700;
-  font-size: 116px;
-  line-height: 82.5%;
-  text-shadow: 4px 4px 0px #ff0070;
-}
-.no-focus__text {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
-  color: #000028;
-  background: #ff0070;
-}
-*/

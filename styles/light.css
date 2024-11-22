@@ -38,6 +38,8 @@
     --headers-color: #ff8dcb;
     --main-header: #ffc2e6;
      --title-h2-color:  #32312d;
+      --text-block-link:#FF8DCB;
+
   }
 
   .header__rec {
@@ -60,5 +62,8 @@
   font-weight: normal;
   line-height: 23.4px;
   color: #353430;
+}
+.text.block__link{
+  text-shadow:var(--text-block-link) 
 }
 }
