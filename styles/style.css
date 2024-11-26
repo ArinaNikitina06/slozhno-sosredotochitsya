@@ -210,7 +210,7 @@
   .header__theme-menu-list {
     flex-direction: column;
     align-items: flex-end;
-    margin-top: 155px;
+    margin-top: 160px;
   }
 }
 
@@ -252,7 +252,11 @@ letter-spacing: 0.3px;
   .gallery__width {
     grid-column: auto;
   }
-  .page {
+  .header, .footer {
     padding: 10px;
   }
+  .main {
+    padding: 0 10px;
+  }
 }
+
