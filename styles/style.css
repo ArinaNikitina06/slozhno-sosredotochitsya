@@ -152,7 +152,6 @@
 }
 
 .text-block__text {
-  /*letter-spacing: 0.5px;*/
   font-size: 18px;
 }
 
@@ -211,7 +210,7 @@
   .header__theme-menu-list {
     flex-direction: column;
     align-items: flex-end;
-    margin-top: 146px;
+    margin-top: 160px;
   }
 }
 
@@ -219,9 +218,6 @@
   .text-block {
     grid-column: 1 / -1;
   }
-  .text-block__text {
-  letter-spacing: 0.5px;
-}
 }
 
 @media (max-width: 767px) {
