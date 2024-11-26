@@ -110,7 +110,7 @@
   inline-size: 50%;
   justify-self: end;
   align-self: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .main {
@@ -152,7 +152,8 @@
 }
 
 .text-block__text {
-  letter-spacing: 0.5px;
+  /*letter-spacing: 0.5px;*/
+  font-size: 18px;
 }
 
 .text-block__link {
@@ -218,6 +219,9 @@
   .text-block {
     grid-column: 1 / -1;
   }
+  .text-block__text {
+  letter-spacing: 0.5px;
+}
 }
 
 @media (max-width: 767px) {
