@@ -102,7 +102,6 @@
   color: var(--main-header);
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  /* line-height: 129.53%; */
   text-shadow: 4px 4px 0px #ff0070;
   margin-left: -20px;
 }
@@ -111,7 +110,6 @@
   inline-size: 50%;
   justify-self: end;
   align-self: center;
-  margin-top: 40px;
 }
 
 .main {
