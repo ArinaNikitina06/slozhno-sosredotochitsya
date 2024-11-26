@@ -226,7 +226,7 @@ letter-spacing: 0.3px;
 
 @media (max-width: 767px) {
   .header__theme-menu-list {
-    margin-top: 80px;
+    margin-top: 70px;
   }
 
   .header__title {
@@ -235,6 +235,7 @@ letter-spacing: 0.3px;
 
   .header__text {
     inline-size: 100%;
+     margin-top: 0px;
   }
 
   .grid-container {
@@ -271,8 +272,8 @@ letter-spacing: 0.3px;
   left: 10px;
   bottom: 10px;
 }
-.header__text {
-  margin-top: 0px;
+.text-block__text {
+letter-spacing: 0px;
 }
 }
 
