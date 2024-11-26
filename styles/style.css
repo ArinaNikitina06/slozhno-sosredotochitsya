@@ -226,7 +226,7 @@ letter-spacing: 0.3px;
 
 @media (max-width: 767px) {
   .header__theme-menu-list {
-    margin-top: 75px;
+    margin-top: 80px;
   }
 
   .header__title {
@@ -255,8 +255,24 @@ letter-spacing: 0.3px;
   .header, .footer {
     padding: 10px;
   }
+  .footer {
+     margin-top: 40px;
+  }
   .main {
     padding: 0 10px;
+      margin-top: 40px;
   }
+  .decorated-zone::before {
+  top: 10px;
+  right: 10px;
+}
+
+.decorated-zone::after {
+  left: 10px;
+  bottom: 10px;
+}
+.header__text {
+  margin-top: 0px;
+}
 }
 
