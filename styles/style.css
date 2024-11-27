@@ -78,8 +78,8 @@
 
 .header__rec {
   position: absolute;
-  right: 10px;
-  top: 0px;
+  right: 30px;
+  top: 20px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -244,6 +244,7 @@ letter-spacing: 0.3px;
 
   .gallery {
     grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
 
   .gallery__height {
@@ -276,6 +277,9 @@ letter-spacing: 0.3px;
 .text-block__text {
 letter-spacing: 0px;
 }
-
+.header__rec {
+  right: 20px;
+  top: 10px;
+}
 }
 
