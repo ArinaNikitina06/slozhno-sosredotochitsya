@@ -262,6 +262,7 @@ letter-spacing: 0.3px;
   .main {
     padding: 0 10px;
       margin-top: 40px;
+        gap: 50px;
   }
   .decorated-zone::before {
   top: 10px;
@@ -275,5 +276,6 @@ letter-spacing: 0.3px;
 .text-block__text {
 letter-spacing: 0px;
 }
+
 }
 
