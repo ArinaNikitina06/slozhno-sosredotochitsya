@@ -42,3 +42,14 @@
 .text.block__link {
   text-shadow: var(--text-block-link);
 }
+
+
+@media (prefers-color-scheme: dark) {
+  .title-decor {
+  background-color: var(--headers-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  color: #353430;
+}
+}
