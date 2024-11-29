@@ -214,6 +214,9 @@
     align-items: flex-end;
     margin-top: 160px;
   }
+  .header__text{
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 768px) {
