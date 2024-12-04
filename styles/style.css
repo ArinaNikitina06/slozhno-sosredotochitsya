@@ -286,6 +286,10 @@ letter-spacing: 0px;
   right: 20px;
   top: 10px;
 }
+.header__title,
+.footer__title {
+  margin-left: 0px;
+}
 }
 
 /* light */
