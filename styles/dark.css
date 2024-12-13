@@ -4,16 +4,17 @@
   переключая тему
 */
 
-.page.theme_dark {
+:root .theme_dark {
   --background-image: url(../images/cover-image-dark.png);
     --background-color: #000028;
   --text-color: #f1b2ce;
   --menu-button-color: #ff0070;
-  --menu-button-color-hover: rgb(241, 178, 206);
+  --menu-button-color-hover:  rgba(255, 0, 112, 0.4);
   --menu-button-color-active: var(--menu-button-color);
   --decorated-zone: var(--menu-button-color);
   --headers-color: #ff0070;
   --main-header: #db00ff;
    --title-h2-color: #FF0070;
     --text-block-link:#FF0070;
+
 }

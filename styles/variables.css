@@ -8,7 +8,7 @@
   --background-color: #000028;
   --text-color:#F1B2CE;
   --menu-button-color: #FF0070;
-  --menu-button-color-hover: rgba(241, 178, 206, 0.4);
+    --menu-button-color-hover:  rgba(255, 0, 112, 0.4 );
    --menu-button-color-active: var(--menu-button-color);
    --decorated-zone: var(--menu-button-color);
    --headers-color: #FF0070;

@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme_light {
+:root .theme_light {
   --background-image: url(../images/cover-image-light.png);
     --background-color: #FFF1F7;
   --text-color: #353430;
@@ -15,6 +15,7 @@
   --headers-color: #ff8dcb;
   --main-header: #ffc2e6;
    --title-h2-color:  #32312d;
+   --text-block-link:#FF8DCB;
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,7 +24,7 @@
     --background-color: #FFF1F7;
     --text-color: #353430;
     --menu-button-color: var(--text-color);
-  --menu-button-color-hover: rgb(50, 49, 45);
+  --menu-button-color-hover: rgba(50, 49, 45, 0.4);
     --menu-button-color-active: var(--menu-button-color);
     --decorated-zone: var(--menu-button-color);
     --headers-color: #ff8dcb;
