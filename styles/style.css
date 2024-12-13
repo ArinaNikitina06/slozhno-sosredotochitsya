@@ -248,6 +248,7 @@
 
   .header__title {
     line-height: 100.7px;
+    margin-left: 0px;
   }
 
   .header__text {
@@ -300,10 +301,6 @@
   .header__rec {
     right: 20px;
     top: 10px;
-  }
-
-  .header__title {
-    margin-left: 0px;
   }
 
   .footer__title {
